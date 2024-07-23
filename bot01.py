@@ -26,9 +26,7 @@ while True:
 
     # Отправка запроса в нейронную сеть
     chat_completion = client.chat.completions.create(
-        # model="gpt-4-turbo-2024-04-09",
         model="gpt-3.5-turbo-1106",
-        # model="gpt-3.5-turbo-1106",
         messages=conversation_history
     )
 
